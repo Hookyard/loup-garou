@@ -1,7 +1,7 @@
 import React, {createContext, useContext, useState, useEffect} from 'react';
 import firebase from './Firebase';
 import { useSession } from './User'
-
+import Header from "../components/Header";
 
 export const useGameFromUser = user => {
   // retrieve the game for which the user is a player

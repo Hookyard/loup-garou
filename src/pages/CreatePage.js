@@ -2,7 +2,8 @@ import React, {useState} from 'react';
 import {Link} from 'react-router-dom';
 import Button from '../components/Button';
 import { useMasterGame, addPlayer } from '../services/MasterGame';
-
+import Input from '../components/Input';
+import styled from "styled-components";
 
 const AddPlayerForm = () => {
   const [value, setValue] = useState('');
